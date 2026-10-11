@@ -195,15 +195,18 @@ calculadora-frequencia/
 │   └── workflows/
 │       └── deploy-pages.yml
 ├── css/
-│   ├── bootstrap.min.css
 │   └── style.css
 ├── js/
-│   ├── bootstrap.bundle.min.js
 │   └── script.js
 ├── package-lock.json
 ├── package.json
 ├── scripts/
 │   └── copy-assets.js
+├── src/
+│   ├── css/
+│   │   └── bootstrap.min.css
+│   └── js/
+│       └── bootstrap.bundle.min.js
 ├── LICENSE
 ├── README.md
 └── .gitignore
@@ -231,7 +234,7 @@ O workflow do GitHub Pages instala as dependências com `npm ci` e executa:
 npm run prepare-assets
 ```
 
-Esse comando copia o Bootstrap instalado em `node_modules` para `css/` e `js/`
+Esse comando copia o Bootstrap instalado em `node_modules` para `src/css/` e `src/js/`
 antes de criar o artefato publicado.
 
 ## Objetivo
