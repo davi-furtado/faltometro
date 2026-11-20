@@ -1,8 +1,8 @@
-# Calculadora de Frequência
+# Faltômetro
 
 Calculadora web para analisar a frequência escolar a partir da quantidade de faltas, aulas dadas e/ou aulas totais.
 
-[Acesse a calculadora](https://davi-furtado.github.io/calculadora-frequencia/)
+[Acesse a calculadora](https://davi-furtado.github.io/faltometro/)
 
 O sistema permite utilizar diferentes informações disponíveis sem precisar escolher manualmente um "modo".
 
@@ -188,7 +188,7 @@ arquivos locais e não depende de CDN.
 ## Estrutura
 
 ```text
-calculadora-frequencia/
+faltometro/
 │
 ├── index.html
 ├── .github/
@@ -219,7 +219,7 @@ Não é necessário instalar dependências.
 Clone o repositório:
 
 ```bash
-git clone https://github.com/davi-furtado/calculadora-frequencia.git
+git clone https://github.com/davi-furtado/faltometro.git
 ```
 
 Depois abra index.html no navegador.
